@@ -16,6 +16,8 @@ RARS runs a lot faster than Jupiter and the environment calls are mostly the sam
 
 Venus is an older simulator but from my experience, it seems to execute faster than even RARS. I don't know as much about it but will add more when I do.
 
+But what I can tell you is that to declare strings, you need to use the .asciiz directive rather than .asciz as you would in RARS or Jupiter. Appendix A of Robert Winkler's book covers some of the differences between Venus and RARS. Venus supports fewer ecalls than RARS and Jupiter do, but is still good for getting started if you don't need user input.
+
 # Learning RISC-V
 
 The best book I can recommend is "RISC-V Assembly Programmming" by Robert Winkler. He really explains it well and was the first source I learned it from. He covers mostly the RARS simulator and some about Venus as well.
